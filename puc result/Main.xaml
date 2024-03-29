@@ -1,0 +1,318 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="944,2869" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="96">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Activities.System.Binding</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Word</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Presentations</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>UiPath.Activities.System.Text</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="76">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <ueab:SequenceX DisplayName="Single Excel Process Scope" sap:VirtualizedContainerService.HintSize="720,2804" sap2010:WorkflowViewState.IdRef="SequenceX_1">
+    <ueab:SequenceX.Variables>
+      <Variable x:TypeArguments="ue:IWorkbookQuickHandle" Default="[new WorkbookQuickHandle(workbookPath:=&quot;Project_Notebook.xlsx&quot;,visible:=True,autoSave:=False,createNew:=True,readOnly:=False,isWorkspace:=True)]" Name="Notes" />
+      <Variable x:TypeArguments="x:String" Default="[string.Format(&quot;CurrentRow(&quot;&quot;REG&quot;&quot;).ToString&quot;)]" Name="CurrentRow" />
+      <Variable x:TypeArguments="x:String" Default="[Name]" Name="Name" />
+      <Variable x:TypeArguments="x:String" Name="variable2" />
+      <Variable x:TypeArguments="x:String" Name="variable3" />
+    </ueab:SequenceX.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="678,2739" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="644,2629" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="602,2564" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="[string.Format(&quot;{0}\Marksheet.xlsx&quot;, Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments))]">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,2272" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ExcelForEachRowX DisplayName=" " EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="526,2207" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_2" Range="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;1:286&quot;)]" SaveAfterEachRow="True">
+                      <ueab:ExcelForEachRowX.Body>
+                        <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                          <ActivityAction.Argument1>
+                            <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                          </ActivityAction.Argument1>
+                          <ActivityAction.Argument2>
+                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                          </ActivityAction.Argument2>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="492,1994" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: PUC Annual Examination Result - 2023" sap:VirtualizedContainerService.HintSize="450,1929" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="Always" ScopeGuid="e9c2c472-f098-4e09-abb5-9254f19df89f" Version="V2" WindowResize="Maximize">
+                              <uix:NApplicationCard.Body>
+                                <ActivityAction x:TypeArguments="x:Object">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1689" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Enter Reg No.'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="374,258" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" Text="[CurrentRow.ByField(&quot;reg&quot;)]" Version="V3">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slpufirst.asp" CvElementArea="495, 374, 945, 46" CvType="InputBox" DesignTimeRectangle="498, 376, 942, 42" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='reg' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='reg' tag='INPUT' type='text' class='form-control' placeholder='Enter Registration Number' aaname='Enter Reg No.' /&gt;" Guid="75e6f1a0-a1ee-40a1-96db-b2e04f74f990" InformativeScreenshot="0f27dca68c4d9e3e96428c893c7dc906.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="498, 347, 116, 16" CvTextArgument="Enter Reg No." CvType="Text" DesignTimeRectangle="498, 344, 116, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Enter Reg No.' check:innerText='Enter Reg No.' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NTypeInto.Target>
+                                    </uix:NTypeInto>
+                                    <uix:NSelectItem DisplayName="Select Item 'Select Subject'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Science" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" Version="V3">
+                                      <uix:NSelectItem.Items>
+                                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                                          <x:String>Subject Combination</x:String>
+                                          <x:String>Science</x:String>
+                                          <x:String>Arts</x:String>
+                                          <x:String>Commerce</x:String>
+                                        </scg:List>
+                                      </uix:NSelectItem.Items>
+                                      <uix:NSelectItem.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slpufirst.asp" CvElementArea="495, 466, 195, 28" CvType="InputBox" DesignTimeRectangle="498, 468, 191, 24" DesignTimeScaleFactor="1.25" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='ddlsub' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='ddlsub' tag='SELECT' type='' class='' aaname='' /&gt;" Guid="8b6973b1-dbaf-4649-b7e6-bc0630edba8a" InformativeScreenshot="8a147612dd336a3d2660712acf8c7339.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="496, 440, 123, 21" CvTextArgument="Select Subject" CvType="Text" DesignTimeRectangle="498, 437, 120, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Select Subject' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select Subject' tag='LABEL' type='' class='' check:innerText='Select Subject' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NSelectItem.Target>
+                                    </uix:NSelectItem>
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" Version="V3">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slpufirst.asp" CvElementArea="495, 510, 91, 46" CvTextArea="513, 523, 56, 16" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="498, 512, 87, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-default' aaname='Submit' check:innerText='Submit' /&gt;" Guid="fce74739-e2a6-48af-88c3-8a5b50b5ade6" InformativeScreenshot="557d13e6ec2479e4b9328067ca9b95b8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="505, 582, 165, 26" CvTextArgument="All The Best" CvType="Text" DesignTimeRectangle="508, 579, 922, 33" ElementType="Text" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;h3' tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H3' class='' aaname='All The Best' check:innerText='All The Best' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <uix:NGetText DisplayName="Get Text 'Name'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" TextString="[CurrentRow.ByField(&quot;NAME&quot;).StringValue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slakresfirst.asp" CvTextArea="629, 127, 99, 18" CvType="AnyWordGroup" DesignTimeRectangle="631, 126, 97, 22" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl id='details' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='details' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' /&gt;" Guid="c239cc16-e54f-4de2-9524-2edd7c7aa019" InformativeScreenshot="f3543a7d839c800255a42141b8939ef5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="486, 127, 56, 18" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="484, 118, 142, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl id='details' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl id='details' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Name' check:innerText='Name' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'PHYSICS'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" TextString="[CurrentRow.ByField(&quot;Physics &quot;).StringValue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slakresfirst.asp" CvTextArea="1384, 682, 42, 18" CvType="AnyWordGroup" DesignTimeRectangle="1235, 673, 197, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' tableCol='4' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' type='' tag='TD' /&gt;" Guid="8a8a4c42-cf84-4e58-ad1e-871bf3217e9e" InformativeScreenshot="b2dd0963f935a84c80eff37c0b4adeca.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="1278, 643, 109, 18" CvTextArgument="Total Marks" CvType="Text" DesignTimeRectangle="1235, 634, 197, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl aaname='Total Marks' class='textcenter' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl aaname='Total Marks' class='textcenter' type='' tag='TH' check:innerText='Total Marks' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'Total Marks'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" TextString="[CurrentRow.ByField(&quot;Chemistry&quot;).StringValue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slakresfirst.asp" CvTextArea="1384, 722, 42, 18" CvType="AnyWordGroup" DesignTimeRectangle="1235, 712, 197, 40" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' tableCol='4' tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' type='' tag='TD' /&gt;" Guid="6ab40560-2ba5-46b9-8552-774b4ead21e2" ImageBase64="" InformativeScreenshot="68b6c7b37e50981b47bb4bcfed2e667c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="1278, 643, 109, 18" CvTextArgument="Total Marks" CvType="Text" DesignTimeRectangle="1235, 634, 197, 39" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl aaname='Total Marks' class='textcenter' tableRow='1' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl aaname='Total Marks' class='textcenter' type='' tag='TH' check:innerText='Total Marks' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'MATHEMATICS'" sap:VirtualizedContainerService.HintSize="374,197" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" TextString="[CurrentRow.ByField(&quot;Mathematics&quot;).StringValue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slakresfirst.asp" CvTextArea="1384, 761, 42, 18" CvType="AnyWordGroup" DesignTimeRectangle="1235, 752, 197, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' tableCol='4' tableRow='4' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' type='' tag='TD' /&gt;" Guid="70f9922f-c0c0-457a-aafb-64c0761e6064" InformativeScreenshot="780dcc17cbd6d84421ab52d4a15b22a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target DesignTimeRectangle="976, 752, 259, 39" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' tableCol='3' tableRow='4' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' type='' aaname='   ' tag='TD' /&gt;" SearchSteps="FuzzySelector" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <uix:NGetText DisplayName="Get Text 'Part B - TOTAL'" sap:VirtualizedContainerService.HintSize="374,182" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="e9c2c472-f098-4e09-abb5-9254f19df89f" TextString="[CurrentRow.ByField(&quot;Total&quot;).StringValue]" Version="V3">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="https://karresults.nic.in/slakresfirst.asp" CvTextArea="1391, 840, 35, 18" CvType="AnyWordGroup" DesignTimeRectangle="816, 831, 616, 39" DesignTimeScaleFactor="1.25" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' tableRow='6' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl class='textright' type='' tag='TD' aaname='' /&gt;" Guid="23a66643-dfba-454f-96af-685eec66e4eb" InformativeScreenshot="0ad528f86fbc51a22533d2738317fc95.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                          <uix:TargetAnchorable.Anchors>
+                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                              <uix:Target CvTextArea="488, 840, 143, 20" CvTextArgument="Part B - TOTAL" CvType="Text" DesignTimeRectangle="485, 831, 331, 39" FullSelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl tableRow='6' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Theory Marks Practical Marks Total Marks' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='' check:innerText='Part B - TOTAL' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                            </scg:List>
+                                          </uix:TargetAnchorable.Anchors>
+                                        </uix:TargetAnchorable>
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                  </Sequence>
+                                </ActivityAction>
+                              </uix:NApplicationCard.Body>
+                              <uix:NApplicationCard.TargetApp>
+                                <uix:TargetApp Area="-1929, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABExSURBVGhDvZcHVFVX9sZJxF5ALCBSHr0XQUFFmgWwQrqJChgn9l4iRiOWEBtKFRAQK1YQo0aNDSNNmtgxlmAmRicrE1GTmZhA7jd7n3vv42FMm8n/v9f61rf3Pvdxf/vc865Pvb8iOuq3MBxtYhS90t48YYubTUFVf/e62/6e9V8P7I2vB/bB7YBe9ZX9XOsKvBwKV9qZJ4R2M4wwa9NK07pVSwMPZ8vId14LOLhu9is38uOinpyI/9uTvOWRtWsmDSsY2tdpXIe2rQ2U2/y1wdCTzI1nFXjaF6qgsuvkwWot6x/B3kJfhvXDpTmvSqUpU36uypiGmswZqMmagwtZc1GRMQvl6TNRmjoNxUmTcWrdOz/MeHlAolGndsbKrf+3YPAFGtPYW/4eD78O9pYEWJBXc2dwErtuj1X31kCpbP0ElCZPwvn0GShLm4HzadNRm7sYtXticXXPCpRvj0XVrjhcPJSMi8c3ozhnKT5aPuaxv7dTuILx38UCTQ8CV48GA/GONsGJXqCXpO70A8ofBPYS9f0gb1ybMgrnkiahhHa3ZOM0lKXPwvmM2SgjxUwdi4XzZyE/Nwl3awtxpeooSk/uwGe1xajI24Bjy15D2f54aXz06CWE8oJM9AeDz+vp3i41vJtCDPiMq6DCCfZBkJcivsYbNyOHEPhUFCVPIfjpKKUBSlKm4vr2d7Fq0gh425ohbfFcDA/yx+RxoYgO80aUZzeUnshF9cFkHIt9HZXkRz7eDYMOrcYraL8frxt3jbo5wKNeC0hQAlALqgurKNAL91kBvaT7AZ7SnVeD6DzTzqdMoQEmo5icByilQS5tnoPMea9i1sgB2L1mAdJXLsAgHwf42XXB7ABLVJzeQ0cpDZ98MAbn98Qhb1cK3O2Nf+rUoc0QBfHXY76lSawKq4Kpu8twsnvKTmu8LuCpdz+wl+JeqI55A0VJ76CEzn2xojKCZ1VlzkJR4lTMHdYXa6eMw+GUZXh5cG+EeFpiUZgTyk/m4mJBMk5+GImqjzZi3+50eDoaw97K+KCC+fyYZ2ESq7u7Koy8s0oeQJDkX/krwJxTjyXWSF8M8UFJ0kR6ArJ4iLKNU1FJX+BKeuNU0Pn/bNdi5C58AznTRyMvaQVCg70wzN0Ey4bZo/rcR7hCT+DkyrG49Mk27N6VSQOYwLeXjdS6ZYseCm7zeN24S9R9AaVzHJRaBlUAFZehPXkQOR/gIaleGxUioIVSJqOUdJ4GqNo0Gxcy5+BWbgxqNs9D4vxJyI+dje2bcjFu3AREvTwSK0YH4MKnBbhCO3+GnsDlE9uxc0c6ejmZoF9vO1h0N5isIDcFf2Fr+7k9FIAEzRAMqrurMjTBClDZ76m5GMIT98hZF5aOlsoIuix1CsoJnOFZFfSur922AFkLx8HZzhZj35yJvL3n8faEuQgb/gYyMnciNCQcpWcP4fqhVJxZFYXLp3ZiS04yvJx6oH8fB/R16nlcwW6Kcl/numa7yECcK0C6LnI/d0mF1WoAy0N4ZeJEes9PI+gpqKD3PXtlxgxUb5qFqznz4OHoCCMTKyxeko2YJTvg4OSFt9+egbiVq9HTzBZHPy7AjcM0wOpoXDu7FxkZ8fQEaAAfJwz3tXukYMsx19w4VruLLB3w5oAMpyMe4pnel4pXpExCOQ1QQarKmC6c4a8QfA39y+tso4FGY4OBgyfAw2cMLCzt4OXlj76+AQgMCMPePbvw2ZFUnF07AbVF+UhPW4Nezj3Rv68LIvwcniroenqturbTrJsT1LSbBPUlSQygBWrKeU24qv5u0r0wPzzenI6nFyrRcP8rcFygnwhVm2bSz4WZuEB+gd46l+jM39wZg8KkaTDrYYrOhp1hofGGxrY3LCxsYWvrBgtzKwwNjcDaNfG4qQxwvWg/0ngAF3P083VBeH+Hpiegmey1NWBrBC4M66PdveaACrCfuyI198CDV8ME9PPiSu4yVBN8TdYsMUBN5mwxQN2exchbMR4GnYxg3N0Epj2tYE7wGo0DDeAK0x7maN/OAG+NHY/PxBEaj6vF+UhMioOHszn6+rhgiLftDQHfqks7jdeul+FNmvJBiBbs77SrzaFl/V1VP1epPnENfn7yRMGV4369hCMXf0RW4VOc2bVJ7Ho1wbMu0RO5lDMf9/Jikb3wLbRs1Rbdu3aDWU9LcXx4AHs7d5gYm6Jj+44Y4D8QF/fF41z8O7hKTyDugxi4OZrBp48z+jiYyv8WGAVYRHvmhku9ciPglfsSjr7mqwC6ScL7q3IT0Jx/Qf4oO01BluNwzY+YvPV79Il9BJ9lj4W/F39c/NLk816TNRuXafcv0wAPDsRi5cRReEG/NUy6dYNJ957i+FhZOUJj5Qwzc1t07myMkNARuFaQiKINE3G9/DBWfLAIrg6mYgCNsaH8GnWMC67x3BkuMTwPErk2TIZVoL/oy9Dkqvq54WHiagWbd/xnTNoig/de9gh9SL05J41YeQuXsmnXBfxcXN0yj0QD5C/FxPBAvKjfFsZduxI8HSEzawFu7dAbdg6e6NrNEnFxK+gIJeMUvYWuV/AAC2FnZwxPbwe0a62vEcfHY8coyYMG6LUzAp4k9tRJftIXfV0k2mkBzPldpb4XESKpx4bhRyY80QKzvJc2iet9Gem4ljMXtVvn4zrB39j2Lu7nLUVEUB/ot2yLbkZdYGxiAUsbD2jsPGDj4AUzSxd6pfZGyadHULN3LY7HReJa+RF61c6Bv4MVlrztBsP2LxrqdfI2DvfcEY5n5bd5FK4FuEl3fRmch3AF+11fZ+m7IwcFPMfEnO8ItF5HBE7QXjq9kfQUrm5bhBs0wO2di/B57iLcIXextUS7DoZigDfC/GFl7Uy7boHuxlbw9gnCO68MxfXKoyjZuhJH6afEhfOHsSFmITJ8Q1B/zB2RQw2i9Uzfcknw2D4KssKF8wDu20dKq2f4a6Hr6LVVR+/eey+FKOjAITrzDPp8yUOomr22ENfoCN3a8S5u0U/oW/T7Z/aY12Bt2hNmpj1wescqrF08E2YWToh46S3kpq7FurH9cbniExTlLMOR5WNwpfIYlsbQ9ynBGw2ljlg/s3uink1Mv0L3baPgtm2kpDuE27YREvfLh3hCwCv6dsMqBR8Yvv4xer1f3yQCbVY/o5XxB/AZHaGb9BPiNv0PbOvMKMSOfwUpqxejcHciDqctQn72BlyvPo/0DWswxNUUF8tP4GzWUhxaPo6exgnkpw9GQ4mD1FDiiPxVZgf1nOIH1blvG4nnyW3rCOnNuEFSXR8n6XNSnY8zfqiuEPA3HjTCk6BYDKfmv62HePvDUlRnx+D2jgXYN/d17PzwXZw7lo/io3nIWjEVx/dmo6asGCVnjyEvNxWVZSdwMu09HIgdjX8WhRO8HcHbSY0l9riTZ1Wn57p1uOS+lYBJbkIjRM59zrl3KLyXGOBzGkD98p65/hM8CEhoieIkBpVdt6fbr4f/kttI+nAdPl3/NxxJicGhvdtQWVKCvE1x2J2+CpWlJSgv+pjO/BFUlp/E+a1ReHzKBQ3FtlJDsZ3wxhJbfHPMql7PbcsIuG4hWPJf06DkMHze21G64+0gCXqK9DM/wJ3AVamwzXrPycWwSh68sAzR7+cj79AZVJVXYP+WZGzb8C4ulx5AyaFF0uXDo/H1mSAwbEOxtdRYbIPGYltRi5xcz2XLMMmVIJtrOFxzSJS75AyTnEmJE/rijrejdoC00//WwunK7TfqZ9fUHv8tNRi0CVaVtawSG15HQ5EVPQFyyvWcUkPrnXOGSi4MTOKc3WXzMFFz33nzUMknPQyX/JzpR9o9caODF57CbfFDuC7+VjiDCNfNn3H1Wlfu6fRP03EU0fBYQDFsQ5GGBrGi2koZgHLqCZdz0dOzXRtUx5AsJwLVgpOr4j4rZpYf/l1VLu71Ff0DxkCyZLjn69m1X15be79R/E3pUZmAaiQ4BmyShcS9pr6FxLq9r2edntk0rwLn7GG0yzKsc/bQZrlTdpjEEn26riovU9yMIzr7MVwIwIWgZP/zCol/pPw14Oc7ywnOkkCbi2DRcM6coFmUK/WpZONCPZPRzgkynAwrhlFqlmNWKA3AHiaxRieEK7cDCqp/hPN738KZQIQoZyjR+x2p1xVUP1X+GtBY0Y8AzWi3GZDdjKEZVtSyK6L++ukGiXoG/XpGM6QAzQoDSwyTpUruyZLr8vuXlFsCUVlP4EQgqhjK6b1/akF115pf8y199rHyV+j4fL1fBVXUk4BNSexmaBQ9rikvkjVqQJtwvRZt9Q0FXGYYHDJDxBCOIqehyHXFPb5m0O4oPPnxe3Hjew9/xuC19XAkaAZ3XCR7U/6ttsfXqL3B6+pxj75HHE+efk+778uwMuinPUTO3qjrQqbKeg9JY9xCI35Om8/rU+iYGaqAhsJhUwjBU71J7cl9USu9uNJ0cXMOHiKSdpPhfiFlAF2No2v5M2o8uklnX0AxnIkkdK4H93RqExqiBw0o96uzu9YIeA7DQRazHAhMlX3GEKmpDmnWF2sZci+laoeCIMeBqqcYuOYh7AnSgaS6qnGZj3BA58xz5F/ajIeFfDy0wDoyJmjdWlYjaVxomygFX0/vxTb6hrYJwfV2BMcSgAoku70iXmPX7fGT4COgG7VfNeLktR+RfPJfSDn1Lxrsh2Y7zvHk6XeIK0nH/kNOBNWdd5ncWMmNCZJzVd2p7o6Gs90kFq9pj48aRiOsY1Uo+3SCTR8s2acPoZxEPVultk0jV2o7ZT1w5xgp/8YnCtrvx/mvLiJwxxgpMDuAYAlM1dmuBEjS1t2EFHhSFx4Amxd23KJgNwU/Bev4oIcqmF0aiV3kg5vVDK2teU2pg3aMRVxxugD88sk/FFyInHvJFdvhnRMhf5Y+d/ckvVW0YF3JWTp5IefN1oQsjF9svvtqdB5uHUs7LG5gkzZI0oILVyXXNht5XTwRbc59242yuKe6vK7bGygt2OVFMEZ0HBjMiEFlyMLOSs4yau60tjS6TayC+/wwj/GtUSFUqfC2Gwcp0l1/ttbtqdcPgnXqQAHPuVd6EO6eoC+jAiUACxnSiHqyNxQaSqJX2JlqEvnt3Z0+VzB/PfSN2mis1gXU26QOgiq+qa4zjOzBkgrGLitYrKl6trZJHYiEfY4E15lgGcxQ+qnQgGqWodIzkNh/OtNJ9FjfHO5Ur/m1o/NsdPQxibZKCZZY6k1lUZ5CzqLamrzpGnmNa22fnHPdzw3Y5KdANcHJuYECbIAGrXeUKBce7tcyQsH7Y2E01HoZ3/x5skoO0kJq+8nBv7hOlYau58+w9h2gn8oMpgIWdiJw2WXYDgTdkYeSRfn7ka2XKVh/LgyHamIFGEmGkJ2lgmmSKE/moYKFtOtKrTpr9ObeAkhXjYUM27zXcKa9JPpnOmBpVMvf/tL+XrRz7RphsXpAPYFqQaySgmGZFEjwgRLnas+KruE+i2v+jG599zh9KQmOwZqrPakd9dvjp9NtpQbSN4fa1UeG6kcrGP9b6HduozFb6lsnABMJPFFxqgUk5ZaJASR5TSvteoA0d5urDCdA24EhBbjck/10W3ZUZrap0Ri/8Me+sH8mDMIsY1UwC4LSJAYKUIsEzmVXc8sEeY3lt7Ev7T69XRhUhlXURgvdcLq19M1Hrerfj9T/7877Hw1+Gl3edNjCoAypK/P1/mIA8wR/sUa56Gftpf8GEiABM7SsU621+TcftXz4fmSLWMP2Lxgqt/m/Dx6kQx+T6B7zvWsYXABvCNBK7gWgf2pfhm8Sg59qJZFwakPLwumvtJj1/wr+vOBh+MtuGGGd0G2KW6HpEp86HsIsfoC0Z39P2mH9+pu5+nV5y/UL4qe0SBgX+kLUXwOtp/cfxMiDcTdEIq4AAAAASUVORK5CYII=" InformativeScreenshot="0b323281a58b48c324753741879e8f9d.jpg" Selector="&lt;html app='chrome.exe' title='PUC Annual Examination Result - 2023' /&gt;" Title="PUC Annual Examination Result - 2023" Url="https://karresults.nic.in/slpufirst.asp" />
+                              </uix:NApplicationCard.TargetApp>
+                            </uix:NApplicationCard>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelForEachRowX.Body>
+                    </ueab:ExcelForEachRowX>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+    </ueab:ExcelProcessScopeX>
+  </ueab:SequenceX>
+</Activity>
